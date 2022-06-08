@@ -161,14 +161,12 @@ body{
     position: relative;
 }
 
-/* ===Относительно кого ставить? и как отступать */
-/* .nav-list{
+/* .page-header.section.psr{
     position: relative;
 } */
-/* .navigation{
+.psr{
     position: relative;
-} */
-
+}
 .nav-link:hover::after,
 .nav-link:focus::after
 {
@@ -179,9 +177,9 @@ body{
     border-radius: 2px; 
     content: '';
     align-content: center;
-    top: 2.75rem;
-    /* margin-top: 28px;  */
+    bottom: 0%;  
 }
+
 .nav-link:hover, 
 .header-link-phone:hover, 
 .header-link-mail:hover,
