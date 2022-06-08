@@ -157,15 +157,30 @@ body{
     margin-right: 10px;
 }
 
+.psr{
+    position: relative;
+}
 
-.nav-link:hover::after{
+/* ===Относительно кого ставить? и как отступать */
+/* .nav-list{
+    position: relative;
+} */
+/* .navigation{
+    position: relative;
+} */
+
+.nav-link:hover::after,
+.nav-link:focus::after
+{
+    position: absolute;
     width: 48px;
     height: 4px;
-    background: #2196F3;
+    background: var(--accent-color);
     border-radius: 2px; 
     content: '';
     align-content: center;
-    margin-top: 28px; 
+    top: 2.75rem;
+    /* margin-top: 28px;  */
 }
 .nav-link:hover, 
 .header-link-phone:hover, 
