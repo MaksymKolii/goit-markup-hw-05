@@ -141,6 +141,7 @@ body{
     align-items: center;
     letter-spacing: 0.02em;
     color: var(--main-h-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .nav-link{
@@ -533,7 +534,8 @@ body{
     margin-bottom: 10px;
 }
 .footer-link{
-    color: var(--footer-link-col)
+    color: var(--footer-link-col);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .logo-light, 
 .footer-link-location{
