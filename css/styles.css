@@ -159,9 +159,6 @@ body{
     margin-right: 10px;
 }
 
-.psr{
-    position: relative;
-}
 
 /* .page-header.section.psr{
     position: relative;
@@ -204,6 +201,7 @@ body{
 .mail-icon:focus
 {
     fill: var(--accent-color);
+    transition: fill var(--conversion);
 }
 
 /* =================== /HEADER ================================= */
@@ -463,6 +461,7 @@ body{
 .social-list-link:focus .social-list-icon
 {
     fill: var(--main-white-color);
+    transition: fill var(--conversion);
 }
 
 /* .social-list-link:hover,
